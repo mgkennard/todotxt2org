@@ -6,7 +6,7 @@ build:
 	swift build -c release --disable-sandbox
 
 install: build
-	install ".build/release/todotxt2org" "$(bindir)"
+	install ".build/release/todotxt2org" "$(bindir)/todotxt2org"
 
 uninstall:
 	rm -rf "$(bindir)/todotxt2org"
