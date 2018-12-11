@@ -1,3 +1,3 @@
 # todotxt2org
 
-A description of this package.
+Convert from todo.txt to Org mode file
